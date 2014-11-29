@@ -1,0 +1,10 @@
+# @name		How to access PHPMyAdmin on Remote Server
+# @author	Jaideep Bhoosreddy
+# @version	$ Revision: 1.0.0 $
+# @source	https://wiki.bitnami.com/Components/phpMyAdmin
+
+Steps to follow:
+
+1.	Set up private key for ssh.
+2.	Run on terminal ssh -N -L 8888:127.0.0.1:80 -i techsupport.pem ubuntu@bazaarek.com
+3.	Access PHPMyAdmin on http://127.0.0.1:8888/phpmyadmin
