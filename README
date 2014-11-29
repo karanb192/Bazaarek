@@ -20,7 +20,7 @@ sudo rm -rf htdocs/themes
 sudo cp -r Bazaarek/* htdocs
 sudo cp -r Bazaarek/.git htdocs
 sudo rm -rf Bazaarek
-cls
+clear
 echo "Successfully initialised git version control in your Bitnami-LAMPP-Prestashop Enviroment."
 
 
