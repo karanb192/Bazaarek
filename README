@@ -1,0 +1,33 @@
+This repository consists of (currently) two main folders:
+1. Modules
+2. Themes
+
+These are the two main places where developers and designers can modify the software.
+
+For conformity, install the lampp stack on your system with the prestashop addon from bitnami (installed seperately).
+
+Go online and fork this repository to your Github account: https://github.com/Bazaarek/Bazaarek.git
+
+After doing the abovementioned steps, create a bash shell script with the following code and run it.
+
+#!/bin/bash
+sudo apt-get update
+sudo apt-get install git
+cd /opt/lampp/apps/prestashop/
+sudo git clone https://github.com/<your-username>/Bazaarek.git
+sudo rm -rf htdocs/modules
+sudo rm -rf htdocs/themes
+sudo cp -r Bazaarek/* htdocs
+sudo cp -r Bazaarek/.git htdocs
+sudo rm -rf Bazaarek
+cls
+echo "Successfully initialised git version control in your Bitnami-LAMPP-Prestashop Enviroment."
+
+
+With these steps your own development environment would function properly. You may begin developing modules and customising themes.
+
+Keep the following things in consideration:
+1. Learn about all the technologies which will be utilised in this project.
+2. Try not to commit broken code.
+3. Never send pull requests for non-working code to the main repository.
+4. Periodically update your work from the main repository and always keep the most updated.
