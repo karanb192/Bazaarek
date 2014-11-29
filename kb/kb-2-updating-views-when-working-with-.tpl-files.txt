@@ -9,3 +9,4 @@ Steps to follow:
 2.	Go to Advanced Parameters > Performance in Version 1.6
 3.	Under Smarty, change Template Compilation to Force Compilation or Recompile when files have been updated.
 3.	If it asks for a particular folder to be writable, do so using sudo chmod with 666 or some appropriate code.
+4.	If the style goes haywire, disable Smart Cache for CSS under CCC below.
