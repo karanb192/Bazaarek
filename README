@@ -15,12 +15,10 @@ sudo apt-get update
 sudo apt-get install git
 cd /opt/lampp/apps/prestashop/
 sudo git clone https://github.com/<your-username>/Bazaarek.git
-sudo rm -rf htdocs/modules
-sudo rm -rf htdocs/themes
 sudo cp -r Bazaarek/* htdocs
 sudo cp -r Bazaarek/.git htdocs
 sudo rm -rf Bazaarek
-cls
+clear
 echo "Successfully initialised git version control in your Bitnami-LAMPP-Prestashop Enviroment."
 
 
