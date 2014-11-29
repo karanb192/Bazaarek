@@ -1,0 +1,11 @@
+@name		Updating Views when working with .tpl files
+@author		Jaideep Bhoosreddy
+@version	$ Revision: 1.0.0 $
+@source		
+
+Steps to follow:
+
+1.	Do this on your development server.
+2.	Go to Advanced Parameters > Performance in Version 1.6
+3.	Under Smarty, change Template Compilation to Force Compilation or Recompile when files have been updated.
+3.	If it asks for a particular folder to be writable, do so using sudo chmod with 666 or some appropriate code.
