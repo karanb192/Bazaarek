@@ -1,0 +1,12 @@
+<module>
+<name>khaas</name>
+<displayName>Khaas Module</displayName>
+<version>1.0.0</version>
+<description>Adds Khaas modules for Bazaarek.</description>
+<author>Jaideep Bhoosreddy</author>
+<tab>front_office_features</tab>
+<confirmUninstall>Are you sure you want to delete this module?</confirmUninstall>
+<is_configurable>1</is_configurable>
+<need_instance>0</need_instance>
+<limited_countries/>
+</module>
