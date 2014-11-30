@@ -1,0 +1,12 @@
+<module>
+<name>postreceiveupdate</name>
+<displayName>Post Receive Update Module</displayName>
+<version>1.0.0</version>
+<description>This module updates the Bazaarek with the latest updates from Github repository.</description>
+<author>Jaideep Bhoosreddy</author>
+<tab>administration</tab>
+<confirmUninstall>Uninstalling this module will prevent Bazaarek from receiving updates from Github. Are you sure you want to delete this module?</confirmUninstall>
+<is_configurable>1</is_configurable>
+<need_instance>0</need_instance>
+<limited_countries/>
+</module>
