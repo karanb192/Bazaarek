@@ -28,6 +28,10 @@ Setting up Git Remote
 2. Everyday, before working. Get the latest code from the repository with the following.
 	sudo git pull upstream master
 
+Pulling new updates
+
+1. Use the following code.
+	sudo git pull --rebase origin master
 
 With these steps your own development environment would function properly. You may begin developing modules and customising themes.
 
